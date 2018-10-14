@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "Vector.h"
+#include "vector.h"
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int main() {
    cout << arr[0] << " " << arr[1] << " " << arr[2] << endl;
    return 0;*/
    int n;
-   cout << "몇 개의 숫자를 입력하실 건가요? " << endl;
+   cout << "How many numbers do you input to? " << endl;
    cin >> n;
 
    Vector v;

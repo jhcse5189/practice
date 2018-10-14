@@ -3,10 +3,10 @@
 #include <iostream>
 #include <vector>
 class Vector {
-//   friend std::ostream& operator<<(std::ostream&, const Vector&);
+   friend std::ostream& operator<<(std::ostream&, const Vector&);
 private:
    int num;
-   int* arr = new int[num];
+   int* arr;
 
 public:
    Vector();
